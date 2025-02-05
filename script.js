@@ -14,44 +14,41 @@ const helpData = {
   },
   sazapur: {
     info: "शाजापुर में महिला एवं बाल सुरक्षा के लिए संपर्क करें: 5566778899",
-    img: "https://via.placeholder.com/400x200?text=Shajapur" // Replace with actual image URL
+    img: "https://via.placeholder.com/400x200?text=Shajapur" 
   },
   Ratlam: {
     info: "बेबी रानी मौर्य सरकारी अधिकारी महिला कल्याण बाल विकास एवं पुष्टाहार, संपर्क: 9876543210",
-    img: "https://via.placeholder.com/400x200?text=Ratlam" // Replace with actual image URL
+    img: "https://via.placeholder.com/400x200?text=Ratlam" 
   },
   Mandsor: {
     info: "सुनीता रानी सरकारी अधिकारी संपर्क: 9876543212",
-    img: "https://via.placeholder.com/400x200?text=Mandsor" // Replace with actual image URL
+    img: "https://via.placeholder.com/400x200?text=Mandsor" 
   },
   Nimana: {
     info: "राहुल ठाकुर सामुदायिक सहायक, संपर्क: 9876543213",
-    img: "https://via.placeholder.com/400x200?text=Nimana" // Replace with actual image URL
+    img: "https://via.placeholder.com/400x200?text=Nimana" 
   },
   Nanoota: {
     info: "रचना पांडे सरकारी अधिकारी, संपर्क: 9876543214",
-    img: "https://via.placeholder.com/400x200?text=Nanoota" // Replace with actual image URL
+    img: "https://via.placeholder.com/400x200?text=Nanoota" 
   },
   Devbandh: {
     info: "निधि टंडन महिला सुरक्षा अधिकारी, संपर्क: 9876543215",
-    img: "https://via.placeholder.com/400x200?text=Devbandh" // Replace with actual image URL
+    img: "https://via.placeholder.com/400x200?text=Devbandh" 
   },
   Rampur: {
     info: "अरुणा ठाकुर महिला हेल्पलाइन संपर्क: 9876543216",
-    img: "https://via.placeholder.com/400x200?text=Rampur" // Replace with actual image URL
+    img: "https://via.placeholder.com/400x200?text=Rampur" 
   },
   Dewas: {
     info: "श्रीमती रेलम बघेल पद जिला कार्यक्रम अधिकारी मो. +91-72 72-250 117  2. सुश्री शीला शुक्ला पद जिला परियोजना अधिकारी मो. 91-72 72-252 549   देवास",
     img:"" },
   Dhar: {
-    info:"1.सुश्री पल्लवी परमार पद परियोजना अधिकरी मो.9977050332 (2).सुभाष जैन पद जिला कार्यक्रम अधिकारी मो. 9752795255 ",
-    img:""},
+    info:"1.सुश्री पल्लवी परमार पद परियोजना अधिकरी मो.9977050332 (2).सुभाष जैन पद जिला कार्यक्रम अधिकारी मो. 9752795255 ", img:"https://i.ibb.co/Kpc9S13X/file-Pb52t6-J1-XNo-Qtf-Bk-Amh-H76-1.webp"},
   Shyopur: {
-    info:"(1).श्री ओ.पी. पाण्डेय पद सहायक संचालक मो. 9575551151 (2). श्री रिशु सुमन पद महिला सशक्तिकरण अधिकारी  मो. 7987207099",
-    img:""},
+    info:"(1).श्री ओ.पी. पाण्डेय पद सहायक संचालक मो. 9575551151 (2). श्री रिशु सुमन पद महिला सशक्तिकरण अधिकारी  मो. 7987207099", img:"https://i.ibb.co/FLfYVvn0/file-3-KVr3br-NJG3jtu7k-SHyawr.webp"},
   Riwa:{
-    info:"श्रीमती प्रतिभा पाण्डेय पद जिला कार्यक्रम अधिकारी.मो.9425953220 ",
-    img:""},
+    info:"श्रीमती प्रतिभा पाण्डेय पद जिला कार्यक्रम अधिकारी.मो.9425953220 ", img:"https://i.ibb.co/ZRZsFNcX/file-K5sghdsez-Vh6xu8-ZWGcwh-X.webp"},
   Bhopal: {
     info:" अधिकारी: श्रीमती सीमा सिंह पदनाम: जिला कार्यक्रम अधिकारी फोन नंबर: 0755 - 1234567",
     img:""},
@@ -63,24 +60,24 @@ const helpData = {
     img:""},
 };
 
-// Dropdown element
+
 const districtSelect = document.getElementById("districts");
 
-// Details display area
+
 const districtDetails = document.getElementById("districtDetails");
 
-// Event listener for dropdown change
+
 districtSelect.addEventListener("change", function() {
   const selectedDistrict = districtSelect.value;
 
-  // Clear previous details
+  
   districtDetails.innerHTML = "";
 
-  // Check if a valid district is selected
+  
   if (selectedDistrict && helpData[selectedDistrict]) {
     const districtInfo = helpData[selectedDistrict];
 
-    // Create district details
+    
     const infoText = document.createElement("p");
     infoText.textContent = districtInfo.info;
 
@@ -88,7 +85,7 @@ districtSelect.addEventListener("change", function() {
     img.src = districtInfo.img;
     img.alt = `${selectedDistrict} Image`;
 
-    // Append to the details section
+    
     districtDetails.appendChild(infoText);
     districtDetails.appendChild(img);
   } else {
