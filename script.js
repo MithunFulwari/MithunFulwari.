@@ -1,7 +1,7 @@
 const helpData = {
   Ujjain: {
     info: "उज्जैन में महिला एवं बाल सुरक्षा के लिए संपर्क करें  थाना प्रभारी: निरीक्षक श्रीमती मधुबाला राठौर मोबाइल नंबर: 75876 - 37058",
-    img: "https://i.ibb.co/MDgP6XVS/indian-women-police-officer-illustration-661323-69.jpg"
+    img: "https://i.ibb.co/kg3GD7QV/Screenshot-20250216-133051-2.png"
   },
   AagarMalwa: {
     info: "आगर मालवा जिले में महिला एवं बाल विकास विभाग से संबंधित जानकारी के लिए, आप निम्नलिखित अधिकारियों से संपर्क कर सकते हैं: जिला कार्यक्रम अधिकारी (DPO): श्रीमती रत्ना शर्मा मोबाइल नंबर: 9516559896",
@@ -48,15 +48,15 @@ Nanuta: {
   },
   Dhar: {
     info: "1. सुश्री पल्लवी परमार पद परियोजना अधिकारी मो. 9977050332 (2) सुभाष जैन पद जिला कार्यक्रम अधिकारी मो. 9752795255",
-    img: "https://i.ibb.co/Kpc9S13X/file-Pb52t6-J1-XNo-Qtf-Bk-Amh-H76-1.webp"
+    img: "https://i.ibb.co/3yHkH29h/Screenshot-20250216-132820-2.png"
   },
   Shyopur: {
     info: "1. श्री ओ.पी. पाण्डेय पद सहायक संचालक मो. 9575551151 (2) श्री रिशु सुमन पद महिला सशक्तिकरण अधिकारी मो. 7987207099",
-    img: "https://i.ibb.co/FLfYVvn0/file-3-KVr3br-NJG3jtu7k-SHyawr.webp"
+    img: "https://i.ibb.co/211c7wm2/Screenshot-20250216-134136-3.png"
   },
   Riwa: {
     info: "श्रीमती प्रतिभा पाण्डेय पद जिला कार्यक्रम अधिकारी.मो. 9425953220",
-    img: "https://i.ibb.co/ZRZsFNcX/file-K5sghdsez-Vh6xu8-ZWGcwh-X.webp"
+    img: "https://i.ibb.co/kg3GD7QV/Screenshot-20250216-133051-2.png"
   },
   Bhopal: {
     info: "अधिकारी: श्रीमती सीमा सिंह पदनाम: जिला कार्यक्रम अधिकारी फोन नंबर: 9827471406",
